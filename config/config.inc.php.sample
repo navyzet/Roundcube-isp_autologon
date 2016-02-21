@@ -1,0 +1,18 @@
+$config['plugins'] = array(
+    'isp_autogon',
+);
+
+//Salt for hashing autorize link.
+$config['isp_salt'] = 'my_secret_hash';
+
+//Yours mail domain.
+$config['isp_mail_domain'] = 'test.com';
+
+//ISPmanager user to create and view the Mailboxes.
+$config['isp_login'] = 'login';
+
+//Password for ISPmanager user.
+$config['isp_password'] = 'password';
+
+//Address and port ISPmanager panel.
+$isp_host = "test.com:1500";
